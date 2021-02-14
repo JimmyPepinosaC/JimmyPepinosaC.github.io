@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+body
+{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+/*--- Navigation ---*/
+.navbar
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
+.navbar-brand img 
+{
+    height: 2rem;
+}
+.navbar li 
+{
+    padding-right: .7rem;
+}
+
+/*--- Personal info ---*/
+.home-inner
+{
+    background-image: url(img/Yo.jpg);
+}
+.caption
+{
+    width: 100%;
+    max-width: 100%;
+    position:absolute;
+    top: 15%;
+    z-index: 1;
+    color: black;
+    text-transform: uppercase;
+}
+.caption h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem white;
+    padding-bottom: 1rem;
+}
+.caption h3
+{
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .5rem white;
+}
+
+
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+  }
